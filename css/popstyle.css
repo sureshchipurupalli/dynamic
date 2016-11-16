@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+.modal__background18 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+.modal__background18:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.background{
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #FF7300;
+  height: 100vh;
+  width: 100vw;
+}
+
+.button18 {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  background: #fff;
+  border-radius: 4px;
+  color: #FF7300;
+  display: block;
+  font-family: Montserrat,sans-serif;
+  margin: auto;
+  padding: 1rem;
+  text-decoration: none;
+}
+.button18:hover {
+  background: #008cff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
+
+.modal__content18{
+  background: #fff;
+  padding: 1rem;
+  position: relative;
+  z-index: 4;
+  overflow:auto;
+}
+@media screen and (max-width: 699px) {
+  .modal__content18 {
+    margin: 2rem;
+  }
+}
+@media screen and (min-width: 700px) {
+  .modal__content18 {
+    margin: 2rem auto;
+    max-width: 70%;
+    min-height: 85%;
+  }
+}
+.modal__content18 svg,
+.modal__content18 path {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  height: 25px;
+  width: 25px;
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+  fill: #bfbfbf;
+}
+.modal__content18 svg:hover,
+.modal__content18 path:hover {
+  fill: #0d0d0d;
+}
+
+/*h2 {
+  color: #008cff;
+  font-family: Montserrat,sans-serif;
+  font-size: 40px;
+  margin: 0rem 0 1rem;
+  text-align: center;
+}*/
+
+.modal__content18 ul{float:left;min-height:80%;}
+.modal__content18 ul{-moz-column-count: 3 !important;
+    -moz-column-gap: 20px !important;
+    -webkit-column-count: 3 !important;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+	margin-top: 20px;}
+	
+.modal__content18 ul a{
+	color:#222;
+}
+.modal__content18 ul li{font-family:'Source Sans Pro', sans-serif;font-size:12px;padding-top:5px}
+.modal__content18 h1{font-family:'Source Sans Pro', sans-serif;font-size:22px;}
+/*.success18 {
+  width: 100%;
+}*/

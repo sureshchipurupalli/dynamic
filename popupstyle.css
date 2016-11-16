@@ -1,0 +1,36 @@
+body {
+font-family: Arial;
+font-size:14px;
+}
+
+.simplePopup {
+display:none;
+position:fixed;
+border: 9px solid #fff;
+background: #f15d26;
+z-index: 3;
+padding: 11px;
+width: 25%;
+min-width: 25%;
+margin-left: 1px;
+margin-top: -1000px;
+}
+
+
+.simplePopupClose {
+float:right;
+cursor:pointer;
+margin-left:10px;
+margin-bottom:10px;
+}
+
+.simplePopupBackground {
+display:none;
+background:#000;
+position:fixed;
+height:100%;
+width:100%;
+top:0;
+left:0;
+z-index:1;
+}

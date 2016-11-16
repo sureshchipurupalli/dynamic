@@ -1,0 +1,12 @@
+[24-Sep-2016 05:24:11 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 1
+[24-Sep-2016 05:24:11 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 1
+[24-Sep-2016 05:24:11 America/Chicago] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/php55/lib/php') in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 1
+[24-Sep-2016 05:24:11 America/Chicago] PHP Fatal error:  Call to a member function getAllCategory() on a non-object in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 2
+[24-Sep-2016 05:28:02 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 1
+[24-Sep-2016 05:28:02 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 1
+[24-Sep-2016 05:28:02 America/Chicago] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/php55/lib/php') in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 1
+[24-Sep-2016 05:28:02 America/Chicago] PHP Fatal error:  Call to a member function getAllCategory() on a non-object in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 2
+[24-Sep-2016 06:13:33 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 1
+[24-Sep-2016 06:13:33 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 1
+[24-Sep-2016 06:13:33 America/Chicago] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/php55/lib/php') in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 1
+[24-Sep-2016 06:13:33 America/Chicago] PHP Fatal error:  Call to a member function getAllCategory() on a non-object in /home3/rajeshch/public_html/PHP/dynamic_database/css/index.php on line 2

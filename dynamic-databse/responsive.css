@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+
+
+@media screen and (max-width:1280px)
+{
+.mid_wrap			{ max-width:1170px; width:96%; margin:auto;} 
+}
+@media screen and (max-width:1024px)
+{
+.nav > ul > li a	 	{padding: 12px 10px;}
+.ser-text 				{width: 72%;}
+.case ul li p 			{font-size: 12px;}
+.header-right 			{width: 49%;}
+.case ul li h3 {
+    font-size: 15px;
+}
+.social-blog {
+    max-width: 744px;
+}
+.work-left h1 {
+    font-size: 31px;
+}
+.work p {
+    padding-bottom: 29px;
+}
+.social-blog {
+    max-width: 748px;
+}
+
+@media screen and (max-width:980px)
+{
+.ser-text 				{width: 70%;}
+.nav > ul > li a 		{padding: 12px 8px;}
+.header-left 			{float: left;width: 48%;}
+.header-right 			{width: 52%;}
+.case ul li 			{width: 19%;margin-bottom: 15px;}
+.work-left h1 			{font-size: 30px;}
+.nav > ul > li a 		{padding: 12px 5px;font-size: 12px;}
+.ser-text 				{width: 64%;}
+
+
+}
+
+
+@media screen and (max-width:800px)
+{
+.header-left 			{width: 30%;}
+.header-right 			{width: 63%;}
+.case ul li 			{width: 24%;}
+.count ul li 			{width: 24%;margin-right: 1%;}
+.count 					{padding: 28px 0px;}
+.tickets 				{margin-bottom: 20px;}
+.work p 				{font-size: 16px;}
+.work-left h3 			{font-size: 30px;}
+.work-left h1 			{font-size: 23px;}
+.subs 					{width: 51%;}
+
+
+
+}
+@media screen and (max-width:768px)
+{
+.header-right 			{width: 66%;}
+.nav > ul > li a 		{padding: 12px 13px;}
+.menu-right 			{width: 81%;}
+.menu-left 				{width: 100%;}
+.case ul li 			{margin-right: 11.8%;}
+.case ul li:nth-child(3n)	{ margin-right:0;}
+.case ul li 			{width: 25%;}
+
+
+
+
+}
+@media screen and (max-width:767px)
+{
+.header-left 			{width: 100%;text-align: center; float:none; clear:both;}
+.header-right 			{width: 100%;text-align: center; float:none; clear:both;}
+.contact 				{max-width: 481px;margin: auto;padding-top: 20px;}
+.social 				{ float:none; clear:both;}
+.account p 				{max-width: 550px;}
+.account h2 			{font-size: 36px;}
+
+@media screen and (max-width:736px)
+{
+.nav > ul > li a 		{padding: 12px 11px;}
+.count ul li 			{width: 49%;margin-right: 1%;margin-bottom: 10px;}
+.count 					{background-size: cover;}
+.tickets 				{background-size: contain;}
+.work p 				{font-size: 14px;}	
+.work-left 				{float:none;width: 100%; clear:both;}
+.work-right 			{width: 100%;float: none;text-align: center;clear: both;}
+.social-blog 			{max-width: 371px;}
+}
+@media screen and (max-width:667px)
+{
+.nav > ul > li a 		{padding: 12px 7px;}
+.informed h2 			{font-size: 26px;}
+.subs 					{margin-left: 98px;}
+.account h2 			{font-size: 32px;}
+}
+@media screen and (max-width:640px)
+{
+.nav > ul > li a 		{padding: 12px 5px;}
+.case ul li 			{width: 30%;margin-right: 3.8%;}
+}
+@media screen and (max-width:584px)
+{
+.menu_trigger   			{ display:block; /*margin:10px 0px*/ text-align:center;}
+.nav>ul						{ display:none;} 
+.nav>ul>li					{ width:100%; background-color:#1E90FF;}
+.nav 						{ float:none; clear:both; text-align:center;}
+.nav>ul>li a				{ color:#fff;}
+.nav>ul>li ul               { position:relative; width:100%; display:none; top:0px; z-index:99999 !important; }
+.nav>ul>li:hover>ul         { display:none; background-color:#0CB6FF; }
+
+.case ul li:nth-child(3n)	{ margin-left: 35%;}
+
+.case ul li 				{width: 33%;margin-left: 35%;}
+
+
+
+
+/*------login-------*/
+.acco {margin-left: 183px;}
+}
+
+@media screen and (max-width:480px)
+{
+.contact ul li 				{width: 100%; background:none; padding:0;}
+.case ul li {
+    width: 40%;
+    margin-left: 30%;
+}
+.case ul li:nth-child(3n)	{ margin-left: 30%;}
+.f-link ul li a {
+font-size: 10px;padding: 0px 9px;}
+.account h2 {
+    font-size: 22px;
+}
+
+
+
+/*-----about------*/
+.inner-banner			{padding-top: 22px;}
+
+/*------login-------*/
+.acco {
+    margin-left: 132px;
+}
+
+}
+
+@media screen and (max-width:418px)
+{
+	
+.case ul li {
+    width: 47%;
+    margin-left: 32%;
+}	
+.case ul li:nth-child(3n)	{ margin-left: 32%;}
+.subs {
+    margin-left: 50px;
+}
+.f-link ul li {
+    float: none;
+    clear: both;
+    text-align: center;
+    
+    width: 100%;
+}
+.f-link ul li a {
+    font-size: 18px;
+    padding: 0px 0px;
+    border: none;
+}
+.account h2 {
+    font-size: 19px;
+}
+.account p {
+    max-width: 379px;font-size: 13px;
+}
+
+
+
+/*------login-------*/
+.acco {
+    margin-left: 98px;
+}
+}
+
+@media screen and (max-width:411px)
+{
+}
+
+
+@media screen and (max-width:384px)
+{
+
+
+}
+@media screen and (max-width:375px)
+{
+.case ul li {
+    width: 52%;
+    margin-left: 25%;
+}
+.case ul li:nth-child(3n)	{ margin-left: 25%;}
+
+/*------login-------*/
+
+.acco {
+    margin-left: 81px;
+}
+}
+@media screen and (max-width:360px)
+{
+
+/*------login-------*/
+.acco {
+    margin-left: 71px;
+}
+}
+@media screen and (max-width:320px)
+{
+.case ul li {
+    width: 60%;
+    margin-left: 21%;
+}
+.case ul li:nth-child(3n)	{ margin-left: 21%;}
+.social-blog {
+    max-width: 246px;
+}
+
+/*------login-------*/
+.acco {
+    margin-left: 50px;
+}
+}
+
+
+

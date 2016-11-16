@@ -1,0 +1,114 @@
+/* jQuery Drawer ============================== */
+
+* {
+	box-sizing: border-box;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.drawer-item {
+	/*border-bottom: 1px solid #E0E0E0;*/
+	margin-top:5px;
+}
+.drawer-item-active .drawer-header {
+		transition: 0.25s;
+		color: #fff;
+		background-color:#195092;
+}
+
+.drawer-item-active .drawer-header1-icon {
+		color: #fff;
+		   background:url(../../images/-vesymbol1_03.png) no-repeat;
+		width:15px;
+		height:15px;
+		position:relative;top:3px;
+		
+    
+		
+}
+
+.drawer-header {
+	color: #fff;
+	padding: 15px 12px;
+	cursor: pointer;
+	/*min-height:50px;*/
+	transition: 0.25s;
+	/*border:1px solid #eeeeee;*/
+	background-color:#195092;
+	/*border-radius:5px;*/
+}
+
+.drawer-header h2 {
+		float: right;
+		font-size: 14px;
+		margin: 0;
+		color:#fff;
+		font-family: 'Poppins', sans-serif;
+		/*font-family: 'Droid Serif', serif;*/
+		font-weight:bold;
+		width:96%;
+		/*text-transform:uppercase;*/
+		padding-top:2px;
+}
+
+.drawer-content {
+	display: none;
+	color: #545252;
+	/*background: #FFF;*/
+	font-size: 15px;
+	line-height: 1.45;
+	font-family:'Poppins', sans-serif;
+	/*font-family: 'Droid Serif', serif;*/
+	font-weight:400;
+	}
+
+.drawer-content p {
+	margin:0px 10px;
+	font-family:'Poppins', sans-serif;
+	font-weight:400;
+	font-size: 14px;
+	line-height:22px;
+	text-align:justify;
+	/*padding:10px 0;*/
+}
+.drawer-content h3
+{
+font-family: 'Droid Serif', serif;
+	
+	font-size: 14px;
+	line-height:22px;
+	text-align:left;
+	font-weight:600;
+	padding:0 10px;
+	margin:0;	
+}
+
+.drawer-content i
+{
+font-family: 'Droid Serif', serif;
+	
+	font-size: 14px;
+	line-height:22px;
+	text-align:left;
+	font-weight:500;
+	padding:0 10px;
+	margin:0;
+	display:block	
+}
+
+.drawer-header1-icon {
+		   background:url(../../images/+vesymbol1_07.png) no-repeat;
+	float: left;
+	color: #fff;
+		width:15px;
+		height:15px;
+		position:relative;top:3px;
+}
+.drawer-header1-icon.drawer-header1-icon-active {
+		   background:url(../../images/toggle-icons_03.png) no-repeat;
+		width:26px;
+		height:26px;
+		   
+		 
+}

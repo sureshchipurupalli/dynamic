@@ -1,0 +1,90 @@
+@import "bourbon";
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+
+// variables 
+$primary-color: #FF7300;
+$radius: 4px;
+$secondary-color: complement($primary-color);
+
+// important info to open modal
+.modal__background {
+  @include position(fixed, 0 0 0 0);
+  @include transition(0.35s);
+  background: rgba(0,0,0,0.8);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+  
+  &:target {
+    opacity:1;
+    pointer-events: auto;
+  }
+}
+
+// standard styles
+.background {
+  @include display(flex);
+  background: $primary-color;
+  height: 100vh;
+  width: 100vw;
+}
+
+.button {
+  @include transition(0.25s);
+  background: #fff;
+  border-radius: $radius;
+  color: $primary-color;
+  display: block;
+  font-family:Montserrat,sans-serif;
+  margin: auto;
+  padding: 1rem;
+  text-decoration: none;
+  
+  &:hover {
+    background: $secondary-color;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    color: #fff;
+  }
+}
+
+.modal__content {
+  background: #fff;
+  padding: 1rem;
+  position: relative;
+  z-index: 4;
+  
+  @media screen and (max-width: 699px) { 
+    margin: 2rem;  
+  }
+  
+  @media screen and (min-width: 700px) { 
+    margin: 4rem auto;
+    max-width: 400px;
+    min-height: 300px;
+  }
+  
+  svg, 
+  path {
+    @include position(absolute, 1rem 1rem null null);
+    @include size(25px);
+    @include transition;
+    fill: tint(#000, 75%);      
+    
+    &:hover {
+      fill: tint(#000, 5%);
+    }
+  }
+}
+
+h2 {
+  color: $secondary-color;
+  font-family:Montserrat,sans-serif;
+  font-size: 40px;
+  margin: 0rem 0 1rem;
+  text-align: center;
+}
+
+.success {
+  width: 100%;
+}

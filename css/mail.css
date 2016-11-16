@@ -1,0 +1,27 @@
+/*------registration mail styles-------------*/
+.emailtemplateblg		{ background-color:#000;}
+.emailcontentblg		{ max-width:530px; margin:auto;}
+.emaillogoblg			{ background:#fff ;margin: auto;
+    max-width: 493px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    top: -18px;}
+.emailtext				{ padding:30px 24px;text-align:left;}
+.text1                  {font-size:16px;font-family: 'Raleway', sans-serif;color:#1d1d1d;padding: 38px 0px;font-weight: 400;}
+.text2                  {font-size:16px;font-family: 'Raleway', sans-serif;color:#1d1d1d;font-weight: 400;}
+.text3                  {font-size:16px;font-family: 'Raleway', sans-serif;color:#1d1d1d;padding-top:30px;font-weight: 400;}
+.text3 a                {color:#262525;}
+.text4                  {font-size:16px;font-family: 'Raleway', sans-serif;color:#1d1d1d;padding-top:6px;font-weight: 400;}
+.text5                  {font-size:16px;font-family: 'Raleway', sans-serif;color:#1d1d1d;padding-top:30px;padding-bottom:37px;font-weight: 400;}
+.text5 a                {color:#006f9e;text-decoration:underline;}
+.text6                  {font-size:16px;font-family: 'Raleway', sans-serif;color:#1d1d1d;padding: 3px 0px;font-weight: 400;}
+.last_footer            {background-color:#27aae1;padding:17px 0px;}
+.last_footer a          {color:#FFF;}
+.last_footer p          {font-size:13px;font-family: 'Raleway', sans-serif;font-weight:300;text-align:center;}
+.last_footer1           {padding-top:65px;padding-bottom:30px;}
+.last_footer1 p         {font-size:12px;font-family: 'Raleway', sans-serif;color:#a3a3a3;text-align:center;padding:3px 0px;font-weight: 400;}
+.emaildesignlogoblg		{ background: rgba(0, 0, 0, 0) url("images/logobg_02.png") no-repeat scroll center top;
+    padding: 0 9%;
+    text-align: center;height: 140px;}
+.emaildesignlogoblg img		{ padding-top:18px;}
